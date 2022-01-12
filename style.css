@@ -37,7 +37,6 @@ nav > ul > li {
 .content {
   display: flex;
   flex-direction: row;
-  flex: 1 0 auto;
   justify-content: space-around;
   margin: 10px;
 }
