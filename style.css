@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main {
   top: 20px;
@@ -8,8 +9,8 @@ main {
 
 /* Top Bar */
 nav {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   display: flex;
   justify-content: space-between;
 }
@@ -62,4 +63,27 @@ h2 {
 }
 .panel > ul > li {
   padding: 0.3em;
+}
+
+/* Extension Challenge */
+.box {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  background-color: #000;
+  margin: 0 5px;
+}
+
+.extension {
+  display: flex;
+  flex-direction: row;
+}
+.space-around {
+  justify-content: space-around;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-start{
+  justify-content: flex-start;
 }
