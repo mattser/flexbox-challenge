@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 main {
   top: 20px;
@@ -14,6 +14,9 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+/* Both Header and UL are 
+seperate entities to allow 
+for easier positioning */
 nav ul {
   display: flex;
   justify-content: flex-end;
@@ -30,6 +33,7 @@ nav > ul > li {
 }
 
 /* Page Content */
+/* Main content of the page */
 .content {
   display: flex;
   flex-grow: 2;
@@ -38,26 +42,34 @@ nav > ul > li {
   justify-content: space-around;
   margin: 10px;
 }
+/* Lefthand side containers */
 .left {
   display: flex;
   flex-direction: column;
   width: 70vw;
 }
-
+/* Individual box panel, 
+  applied to all */
 .panel {
   border: 2px black solid;
   margin: 10px;
   padding: 10px;
 }
+/* Righthand size container */
 .right {
   width: 30vw;
   border: 2px black solid;
   margin: 10px;
   padding: 10px;
 }
+/* Required to fix bullet point bug
+  Note bullet points do not like 
+  flex */
 .panel > ul {
   margin-left: 2em;
 }
+/* Beautification to reflect 
+  desired product */
 h2 {
   padding: 0.5em;
 }
@@ -66,6 +78,8 @@ h2 {
 }
 
 /* Extension Challenge */
+/* Reusing some classes as before
+with additional tage for specific styling */
 .box {
   width: 100px;
   height: 100px;
@@ -73,7 +87,6 @@ h2 {
   background-color: #000;
   margin: 0 5px;
 }
-
 .extension {
   display: flex;
   flex-direction: row;
