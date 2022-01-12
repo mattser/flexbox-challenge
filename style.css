@@ -36,7 +36,6 @@ nav > ul > li {
 /* Main content of the page */
 .content {
   display: flex;
-  flex-grow: 2;
   flex-direction: row;
   flex: 1 0 auto;
   justify-content: space-around;
